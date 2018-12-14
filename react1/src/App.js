@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className="App">
         {
-         this.state.mio_array.map(mio_array =><Post id={mio_array.id} name={mio_array.name} />)
+         this.state.mio_array.map((item, index)=><Post id={item.id} name={item.name} />)
         }
       </div>
     );
