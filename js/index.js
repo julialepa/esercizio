@@ -17,11 +17,11 @@ const mio_array = [
 ]
 
 for (let i = 0; i < mio_array.length; i++) {
-    
+
     let id_string = mio_array[i].id.toString();
 
 
-    let my_span = document.createElement('span');
+    let my_span = document.createElement('span')
     let span_id = document.createTextNode(id_string);
     my_span.appendChild(span_id);
     document.getElementById('object').appendChild(my_span);
